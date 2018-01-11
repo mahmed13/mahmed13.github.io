@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Muhammed Ahmed</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<article class="post-content posts-by-year">
+        
+        <h2 id="2016-ref">2018</h2>
+        <ul>
+        
+
+        <li><span class="post-date">Jan 11, 2018</span>
+        <a href="/blog/2018/">Cross Validation With Time Series Data</a>
+        <br>
+        <span class="post-description">Cross validation for time series data. Due to rolling statistics it is impractical to use conventional cross validation on time series data. Instead a method like the one described in Dr. Hyndman in this blog post (https://robjhyndman.com/hyndsight/tscv/) is more applicable. 
+</span>
+        </li>
+
+
+
+  </article>
+</html>
