@@ -23,11 +23,13 @@
         <a href="/blog/2018/">Cross Validation With Time Series Data</a>
         <br>
         <span class="post-description">Cross validation for time series data. 
-		Due to rolling statistics it is impractical to use conventional cross validation on time series data. 
-		Instead a method like the one described in Dr. Hyndman in this <a href="https://robjhyndman.com/hyndsight/tscv/">blog post</a> is more applicable. 
-		\n<img src="/blog/tscv.png" alt="TSCV">\n
-		Where blue dots are training sets and the red dots are test sets. The test set accuracies are averaged to produce the final score. “This procedure is sometimes known as ‘evaluation on a rolling forecasting origin’ because the ‘origin’ at which the forecast is based rolls forward in time.”
+		<p>Due to rolling statistics it is impractical to use conventional cross validation on time series data. 
+		Instead a method like the one described in Dr. Hyndman in this <a href="https://robjhyndman.com/hyndsight/tscv/">blog post</a> is more applicable.
+			</p>
+		<img src="/blog/tscv.png" alt="TSCV">
+		<p>Where blue dots are training sets and the red dots are test sets. The test set accuracies are averaged to produce the final score. “This procedure is sometimes known as ‘evaluation on a rolling forecasting origin’ because the ‘origin’ at which the forecast is based rolls forward in time.”
 sklearn TimeSeriesSplit accomplishes this task in python http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html 
+			</p>
 		
 </span>
         </li>
